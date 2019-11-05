@@ -2,7 +2,6 @@ import React from 'react';
 import PerformanceChart from './PerformanceChart';
 import Nasdaq from './Nasdaq';
 import PublicPreference from './PublicPreference';
-import UserBehavior from './UserBehavior';
 
 const Charts = () => (
   <div className="content">
@@ -20,7 +19,6 @@ const Charts = () => (
           <PublicPreference />
         </div>
         <div className="col-md-6">
-          <UserBehavior />
         </div>
       </div>
     </div>
